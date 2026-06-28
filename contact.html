@@ -3,33 +3,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Sanaag Restaurant</title>
-    
+    <title> Contact Us | Sanaag Restaurant </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="css/contact.css">
 </head>
+
 <body>
 
-    <section class="hero"> 
-        <img src="images/food1.webp" alt="Sanaag Restaurant">
-    
-    
-    
-        </section>
-
-    <nav>
-     <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="menu.html">Menu</a>
-    <a href="contact.html">Contact</a>
+  <!--   Hero -->
+<header class="hero">
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a class="active" href="#">Contact</a></li>
+        </ul>
     </nav>
+    <div class="hero-text">
+        <h1>Contact Us</h1>
+    </div>
+</header>
 
-    <h2>Contact Page</h2>
+<section class="contact-cards">
 
-    <h1>Welcome to Sanaag Restaurant</h1>
-   
+    <div class="card">
+         <div class="icon">
+            <i class="fa-solid fa-location-dot"></i>
+        </div>
+
+        <h3>Our Location</h3>
+        <p>
+            Sanaag Restaurant<br>
+            Highway 13 East<br>
+            Burnsville, MN 55337
+        </p>
+
+    </div>
+
+    <div class="card">
+
+        <div class="icon">
+            <i class="fa-solid fa-phone"></i>
+        </div>
+
+        <h3> Call Us </h3>
+
+        <p>612 555 1234</p>
+
+    </div>
+
+    <div class="card">
+
+        <div class="icon">
+            <i class="fa-solid fa-envelope"></i>
+        </div>
+
+        <h3> Email Us </h3>
+
+        <p>sanaagrestaurant@gmail.com</p>
+
+    </div>
+
+</section>
+
+<!-- Contact Form-->
+
+<section class="contact-form">
+
+    <div class="contact-container">
+
+        <!-- FORM -->
+         <div class="form-box-text">
+
+            <h2>Send Us A Message</h2>
+
+         </div>
+       
+
+        <div class="form-box">
+
+            
+
+            <form>
+                <div class="row">
+                    <input type="text" placeholder="Your Name" required>
+                     <input type="email" placeholder="Your Email"required>
+                     <input type="tel" placeholder="Phone Number" required>
+                </div>
+
+                <div class="row">
+                    <input type="text" placeholder="Subject" required style="width: 100%;">
+                </div>
+
+                <textarea placeholder="Message " required></textarea>
+                <button type="submit"> Send Message </button>
+
+            </form>
+
+        </div>
+    </div>
+
+</section>
+
+<!--  FOOTER  -->
+
+<footer>
+
+    <h3>Sanag Restaurant</h3>
+
+    <p>Delicious food with passion and somali traditional flavors.</p>
+
+    <div class="social-media">
+
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-tiktok"></i>
+        <i class="fab fa-twitter"></i>
+
+    </div>
+
+    <p class="copy">
+        © 2026 Sanaag Restaurant. All Rights Reserved.
+    </p>
+
+</footer>
 
     <script src="js/script.js"></script>
-    
-    
 </body>
 </html>
