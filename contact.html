@@ -3,201 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <title>Sanaag Restaurant</title>
     
 </head>
-
 <body>
 
-  <!--   Hero -->
-<header class="hero">
-    <nav class="navbar">
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a class="active" href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-    <div class="hero-images" id="heroImages">
-        <img class="hero-img-slot" src="" alt="Hero Image 1">
-        <img class="hero-img-slot" src="" alt="Hero Image 2">
-        <img class="hero-img-slot" src="" alt="Hero Image 3">
-         <img class="hero-img-slot" src="" alt="Hero Image 4">
-          <img class="hero-img-slot" src="" alt="Hero Image 5">
-        <img class="hero-img-slot" src="" alt="Hero Image 6">
-    </div>
+    <nav>
+        <div class="logo"> <i class="fa-solid fa-kitchen-set"></i> Sanaag Restaurant</div>
 
-    <div class="hero-text">
-        <h1>Contact Us</h1>
-    </div>
-</header>
-
-<section class="contact-cards">
-
-    <div class="card">
-         <div class="icon">
-            <i class="fa-solid fa-location-dot"></i>
-        </div>
-
-        <h3>Our Location</h3>
-        <p>
-            Sanaag Restaurant<br>
-            Highway 13 East<br>
-            Burnsville, MN 55337
-        </p>
-
-    </div>
-
-    <div class="card">
-
-        <div class="icon">
-            <i class="fa-solid fa-phone"></i>
-        </div>
-
-        <h3> Call Us </h3>
-
-        <p>612 555 1234</p>
-
-    </div>
-
-    <div class="card">
-
-        <div class="icon">
-            <i class="fa-solid fa-envelope"></i>
-        </div>
-
-        <h3> Email Us </h3>
-
-        <p>sanaagrestaurant@gmail.com</p>
-
-    </div>
-
-</section>
-
-<!-- Contact Form-->
-
-<section class="contact-form">
-
-    <div class="contact-container">
-
-        <!-- FORM -->
-         <div class="form-box-text">
-
-            <h2>Send Us A Message</h2>
-
-         </div>
-       
-
-        <div class="form-box">
-
-            
-
-            <form>
-                <div class="row-inputs">
-                    <input type="text" placeholder="Your Name" required>
-                     <input type="email" placeholder="Your Email"required>
-                     <input type="tel" placeholder="Phone Number" required>
-                </div>
-
-                
-                <input class="subject" type="text" placeholder="Subject">
-                <textarea  class="text-area" placeholder="Message " required></textarea>
-                <input class="subject" type="text" placeholder="Captcha*">
-
-                <div class="button-container" >
-                    <button type="submit"> Send Message </button>
-                </div>
-                
-            </form>
-
-        </div>
-    </div>
-
-</section>
-
-<!-- ============. Opening Hours ===============-->
-
-<h1 class="open-hours">Opening Hours</h1>
-
-<hr>
-
-<div class="days-container">
-
-    <div class="day">
-        <span>Monday</span>
-        <span>7:00 AM - 8:30 PM</span>
-    </div>
-        
-
-    <div class="day">
-        <span>Tuesday</span>
-        <span>7:00 AM - 8:30 PM</span>
-    </div>
-
-    <div class="day">
-        <span>Wednesday</span>
-        <span>7:00 AM - 8:30 PM</span>
-    </div>
-
-    
-
-    <div class="day">
-        <span>Thursday</span>
-        <span>7:00 AM - 8:30 PM</span>
-    </div>
-
-    <div class="day">
-        <span>Friday</span>
-        <span>7:00 AM - 8:30 PM</span>
-    </div>
-
-    <div class="day">
-        <span>Saturday</span>
-        <span>7:00 AM - 8:30 PM</span>
-    </div>
-
-    <div class="day">
-        <span>Sunday</span>
-        <span>7:00 AM - 8:30 PM</span>
-    </div>
-
- </div>
-
-
-
-
-  <hr>
-
-<!--  FOOTER  -->
-
-<footer class="footer">
-
-    <h3>Sanag Restaurant</h3>
-
-    <p>Delicious food with passion and somali traditional flavors.</p>
-
-    <!-- Footer Links -->
-    <div class="footer-links">
+        <div class="nav-link" id="navMenu"> 
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
-        <a href="menu.html">Menu</a>
+        <a href="menu.html" class="active">Menu</a>
         <a href="contact.html">Contact</a>
     </div>
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    </nav>
+    
+    <section class="hero"> 
+        <img src="images/food1.webp" alt="Sanaag Restaurant">
+        
+        <div class="hero-text">
+            <h1>Welcome to Sanaag Restaurant</h1>
+            <p>Authentic Somali and East African Cuisine</p>
+            <a href="menu.html" class="btn">Order Now</a>
+        </div>
+    </section>
 
-<!--Social Media Links -->
 
-<<<<<<< HEAD
-    <div class="social-media">
 
-        <i class="fab fa-facebook-f"></i>
-        <i class="fab fa-instagram"></i>
-        <i class="fab fa-tiktok"></i>
-        <i class="fab fa-twitter"></i>
-=======
+
+
+
     <section class="contact-cards">
 
         <div class="contact-card">
@@ -240,7 +79,7 @@
     
     </section>
     
-    <!-- Contact Form-->
+    
     
     <section class="contact-form">
     
@@ -328,19 +167,49 @@
         </div>
     
      </div>
+
    
+ 
+     
    
->>>>>>> 0a08215 (Add complete pages)
 
+
+   <script src="js/script.js"></script>
+
+   <footer class="footer">
+    <div class="footer-container">
+
+        <div class="footer-section">
+        <h3>👨🏽‍🍳 Sanaag Restaurant</h3>
+        <p>Authentic Somali Cuisine in Minnesota</p>
     </div>
-
-    <div class="copy-right">
-        © 2026 Sanaag Restaurant. All Rights Reserved.
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    
+    <div class="footer-section">
+        <h3>Follow Us</h3>
+     <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-snapchat"></i></a>
+            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
     </div>
+    </div>
+    <hr>
+    
 
-</footer>
+    <p class="copyright">© 2026 Sanag Restaurant Team. All Rights Reserved. </p>
 
-    <script src="js/contact.js"></script>
+
+   </footer>
+    
+    
 </body>
 </html>
 
